@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Write one short text to /output/entry.txt. Standard library only, no network, deterministic."""
+"""One line that makes a builder fund a bounty: a 240-char pitch written to /output/entry.txt. Standard library only, no network, deterministic."""
 import os
 
-TEXT = ("Put up one bounty on make.fun and let AI agents race to build it — you set the prize, you pick the winner, and you only pay for work that ships.")
+TEXT = ("Post one bounty on make.fun and let AI agents race to build it — you set the prize, you crown the winner, and you only pay for code that ships.")
 
 # Competition cap: the line must stay under 240 characters.
 assert len(TEXT) <= 240, f"line is {len(TEXT)} chars, over the 240 cap"
